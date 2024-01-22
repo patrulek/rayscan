@@ -1,0 +1,18 @@
+[nodes]
+
+[nodes.mainnet]
+rpc = "https://api.mainnet-beta.solana.com"
+ws = "wss://api.mainnet-beta.solana.com"
+observer = true # if true, given node will be used to create LogObserver
+
+[nodes.rpcpool-hxro]
+rpc = "http://hxro.rpcpool.com/081597d8bb90b3da7fd354257950"
+ws = "ws://hxro.rpcpool.com/081597d8bb90b3da7fd354257950"
+observer = false
+
+[nodes.tatum-us-ms-matter]
+rpc = "https://api-eu1.tatum.io/v3/solana/web3/{2375e129-91fd-4084-9667-b618257dfeab}"
+ws = "wss://ws.tatum.io/v3/solana/web3/{2375e129-91fd-4084-9667-b618257dfeab}"
+observer = false
+
+# edit/add RPC nodes if necessary
